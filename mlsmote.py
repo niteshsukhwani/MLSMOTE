@@ -127,7 +127,7 @@ def MLSMOTE(X,y, n_sample):
     target = pd.concat([y, target], axis=0)
     return new_X, target
 
-if __name__=='main':
+if __name__=='__main__':
     """
     main function to use the MLSMOTE
     """
